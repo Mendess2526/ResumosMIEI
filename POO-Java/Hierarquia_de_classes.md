@@ -202,8 +202,8 @@ Tudo que foi escrito acima deste parágrafo continua a ser verdade, exceto
 abstrata não poder ser instanciada, isto é, não podermos criar um
 objeto da mesma. Significará isto que a classe abstrata não tem construtores?
 Não. As classes abstratas devem ter construtores porque as suas subclasses(não
-abstratas) podem ser instanciadas e poderão invocar o construtor da
-superclasse abstrata.
+abstratas) podem ser instanciadas e provavalmente e poderão invocar o construtor da
+superclass abstrata.
 
 Outra vantagem é que agora podemos definir métodos abstratos.
 ```java
